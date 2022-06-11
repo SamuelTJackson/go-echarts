@@ -1,4 +1,4 @@
-module github.com/SamuelTJackson/go-echarts/v2
+module github.com/go-echarts/go-echarts/v2
 
 go 1.15
 
@@ -8,5 +8,3 @@ require (
 	github.com/stretchr/testify v1.6.0
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 )
-
-replace github.com/go-echarts/go-echarts/v2 => github.com/SamuelTJackson/go-echarts/v2 master
