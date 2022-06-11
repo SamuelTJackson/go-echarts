@@ -667,6 +667,8 @@ type XAxis struct {
 // YAxis is the option set for Y axis.
 // https://echarts.apache.org/en/option.html#yAxis
 type YAxis struct {
+	Offset int `json:"offset"`
+
 	// Name of axis.
 	Name string `json:"name,omitempty"`
 
